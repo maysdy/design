@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="la:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>la</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CourseDesionSpring.war">
+      <element id="artifact" artifact-name="la:war exploded" />
+    </root>
+  </artifact>
+</component>
